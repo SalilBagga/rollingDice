@@ -1,0 +1,25 @@
+.RollingDice button {
+  align-self: center;
+  background-color: black;
+  color: white;
+  width: 15em;
+  height: 38px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 0;
+  padding: 0.25em;
+}
+.RollingDice button:hover {
+  background-color: indigo;
+  color: white;
+}
+.RollingDice {
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+}
+.RollingDice-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
